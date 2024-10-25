@@ -1,0 +1,154 @@
+.my-header-continer {
+  background: #393939;
+  color: white;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0rem 1.25rem;
+  height: 100%;
+}
+.my-header-continer > .my-header-logo {
+  width: 20%;
+}
+@media (max-width: 849px) {
+  .my-header-continer > .my-header-logo {
+    width: 27%;
+  }
+}
+@media (max-width: 591px) {
+  .my-header-continer > .my-header-logo {
+    width: 36%;
+  }
+}
+@media (max-width: 320px) {
+  .my-header-continer > .my-header-logo {
+    width: 48%;
+  }
+}
+.my-header-continer > .my-nav,
+.my-header-continer .my-dropdown-wapper {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.my-nav {
+  flex-basis: 66%;
+  justify-content: space-between;
+}
+@media (max-width: 1247px) {
+  .my-nav {
+    flex-basis: 73%;
+  }
+}
+@media (max-width: 1147px) {
+  .my-nav {
+    display: none;
+  }
+}
+
+.lstbtn-nav {
+  padding: 0.5rem;
+  border-radius: 6px;
+  background-color: #99144d;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.my-dropdown-menu {
+  z-index: 30;
+}
+.my-dropdown-menu-ul {
+  background-color: #393939;
+  padding: 1rem;
+}
+.my-dropdown-menu-ul > li > a {
+  padding: 0.8rem 0.3rem;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#myhome {
+  height: 12vh;
+}
+
+.mbl-nav {
+  font-size: 3rem;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 1147px) {
+  .mbl-nav {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
+.mbl-nav > i {
+  border: 2px solid white;
+  padding: 0.3rem;
+}
+
+.mbl-navlink-wapper {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 300;
+  background-color: white;
+  display: none;
+}
+.mbl-navlink-wapper > div {
+  height: 2%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+  font-size: 3rem;
+}
+@media (max-width: 425px) {
+  .mbl-navlink-wapper > div {
+    font-size: 2.2rem;
+  }
+}
+.mbl-navlink-wapper > div > i {
+  margin: 0 2rem;
+}
+.mbl-navlink-wapper > ul {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0 3rem;
+}
+@media (max-width: 425px) {
+  .mbl-navlink-wapper > ul {
+    font-size: 1.3rem;
+  }
+}
+.mbl-navlink-wapper > ul > hr {
+  border: 1px solid rgba(57, 57, 57, 0.6705882353);
+  width: 100%;
+}
+.mbl-navlink-wapper > ul > li > i {
+  margin: 0 2rem;
+}
+.mbl-navlink-wapper > ul > .my-mbl-subnav-wapper {
+  cursor: pointer;
+}
+.mbl-navlink-wapper > ul > .my-mbl-sub-nav {
+  height: 0%;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  box-shadow: inset 0px 0px 10px -2px rgba(0, 0, 0, 0.5490196078);
+  transition: all 1s ease-in;
+}
+.mbl-navlink-wapper > ul > .my-mbl-sub-nav > li {
+  padding: 0.5rem;
+}
+
+.show-mbl-subanv {
+  height: 22% !important;
+}
+
+/*# sourceMappingURL=str.css.map */
