@@ -93,6 +93,29 @@
       };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
+
+      const firestore = firebase.firestore();
+
+// Function to create a collection and a document
+const createSampleDocument = () => {
+  const sampleData = {
+    name: "John Doe",
+    age: 20,
+    crtfct: "https://example.com/certificate.jpg"
+  };
+
+  // Add a document to the "students" collection
+  firestore.collection("students").doc("student1").set(sampleData)
+    .then(() => {
+      console.log("Sample document created successfully!");
+    })
+    .catch((error) => {
+      console.error("Error creating document:", error);
+    });
+};
+
+// Call the function to create the sample document
+createSampleDocument();
     </script>
 
     <script src="../js/login.js"></script>
