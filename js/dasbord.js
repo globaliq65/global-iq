@@ -91,8 +91,33 @@ closetheaddstudentwapper.addEventListener("click", (e) => {
   addstudentsWapper.classList.remove("my-add-s-show");
 });
 
+// const firestore = firebase.firestore();
+
+
+
 var dataroot = false;
 var firestore = firebase.firestore();
+
+const createSampleDocument = () => {
+  const sampleData = {
+    name: "John Doe",
+    age: 20,
+    crtfct: "https://example.com/certificate.jpg"
+  };
+
+  firestore.collection("students").doc("student1").set(sampleData)
+    .then(() => {
+      console.log("Sample document created successfully!");
+    })
+    .catch((error) => {
+      console.error("Error creating document:", error);
+    });
+};
+
+// Call the function to create the sample document
+createSampleDocument();
+
+
 firestore
   .collection("students")
   .get()
