@@ -1,0 +1,18 @@
+{
+  "name": "website1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel  *.html",
+    "build": "parcel build *.html"
+  },
+  "author": "nagasai jithin",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.32.8"
+  },
+  "keywords": [],
+  "description": ""
+}
