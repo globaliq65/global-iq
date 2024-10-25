@@ -91,10 +91,6 @@ closetheaddstudentwapper.addEventListener("click", (e) => {
   addstudentsWapper.classList.remove("my-add-s-show");
 });
 
-// const firestore = firebase.firestore();
-
-
-
 var dataroot = false;
 var firestore = firebase.firestore();
 firestore
