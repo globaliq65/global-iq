@@ -6,7 +6,8 @@ cvid.addEventListener("keyup", (e) => {
   e.target.value = phone;
 });
 cvform.addEventListener("submit", (e) => {
-  const filterid = cvid.value.replace(/[-\s]/g, "");
+  const filterid = cvid.value.replace("GIQ-2020-", "").replace(/[-\s]/g, "");
+  console.log(filterid);
   var firestore = firebase.firestore();
   firestore
     .collection("students")
