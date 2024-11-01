@@ -40,7 +40,7 @@ firebase.auth().onAuthStateChanged((user) => {
 
 const ldwapper = document.querySelector(".ld-wapper");
 form.addEventListener("submit", (e) => {
-  const fliterid = studentId.value.replace(/[-\s]/g, "");
+  const fliterid = studentId.value.replace("GIQ-2020-", "").replace(/[-\s]/g, "");
   if (studentId.value != "" && studentCtc.value != "") {
     ldwapper.classList.add("sh-ld");
     var storageRef = firebase.storage().ref();
