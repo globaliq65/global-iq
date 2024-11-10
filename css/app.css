@@ -271,7 +271,7 @@ body {
 
 .my-gallary-img-wapper {
   width: 60%;
-  height: 78vh;
+  height: 100%;
   margin: 0 auto;
   background: black;
   box-shadow: 1px 2px 20px -3px rgba(49, 49, 49, 0.8196078431);
@@ -392,7 +392,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 20;
   display: flex;
   align-items: center;
   width: 100%;
@@ -406,48 +406,48 @@ body {
 }
 
 .card_part.card_part-two {
-  z-index: 9;
+  z-index: 20;
   background-image: url("../assets/IQ1.jpg");
   animation-delay: 7s;
 }
 
 .card_part.card_part-three {
-  z-index: 8;
+  z-index: 19;
   background-image: url("../assets/students.jpg");
   animation-delay: 14s;
 }
 
 .card_part.card_part-four {
-  z-index: 7;
+  z-index: 18;
   background-image: url("../assets/GIQ Goal.jpg");
   animation-delay: 21s;
 }
 
 .card_part.card_part-five {
-  z-index: 6;
+  z-index: 17;
   background-image: url("../assets/kid1.jpg");
   animation-delay: 28s;
 }
 
 .card_part.card_part-sixe {
-  z-index: 5;
+  z-index: 16;
   background-image: url("../assets/KID3.jpg");
   animation-delay: 35s;
 }
 
 .card_part.card_part-seven {
-  z-index: 4;
+  z-index: 15;
   background-image: url("../assets/computer-training-500x500.png");
   animation-delay: 42s;
 }
 
 .card_part.card_part-120 {
-  z-index: 4;
+  z-index: 14;
   background-image: url("../assets/120.jpg");
   animation-delay: 49s;
 }
 .card_part.card_part-121 {
-  z-index: 4;
+  z-index: 13;
   background-image: url("../assets/121.jpg");
   animation-delay: 56s;
 }
