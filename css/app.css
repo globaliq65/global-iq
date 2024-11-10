@@ -444,42 +444,42 @@ body {
 .card_part.card_part-120 {
   z-index: 4;
   background-image: url("../assets/120.jpg");
-  animation-delay: 42s;
+  animation-delay: 49s;
 }
 .card_part.card_part-121 {
   z-index: 4;
   background-image: url("../assets/121.jpg");
-  animation-delay: 42s;
+  animation-delay: 56s;
 }
 .card_part.card_part-122 {
   z-index: 4;
   background-image: url("../assets/122.jpg");
-  animation-delay: 42s;
+  animation-delay: 63s;
 }
 .card_part.card_part-123 {
   z-index: 4;
   background-image: url("../assets/123.jpg");
-  animation-delay: 42s;
+  animation-delay: 70s;
 }
 .card_part.card_part-124 {
   z-index: 4;
   background-image: url("../assets/124.jpg");
-  animation-delay: 42s;
+  animation-delay: 77s;
 }
 .card_part.card_part-125 {
   z-index: 4;
   background-image: url("../assets/125.jpg");
-  animation-delay: 42s;
+  animation-delay: 84s;
 }
 .card_part.card_part-126 {
   z-index: 4;
   background-image: url("../assets/126.jpg");
-  animation-delay: 42s;
+  animation-delay: 91s;
 }
 .card_part.card_part-127 {
   z-index: 4;
   background-image: url("../assets/127.jpg");
-  animation-delay: 42s;
+  animation-delay: 98s;
 }
 
 @keyframes opaqTransition {
