@@ -36,6 +36,9 @@
     
     <title>Global-IQ Software Training</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap"
       rel="stylesheet"
@@ -283,7 +286,7 @@
         </div>
       </div>
 
-      <div class="slider">
+      <div class="slider-main">
         <div class="slides">
           <input type="radio" name="radio-btn" id="radio1" />
           <input type="radio" name="radio-btn" id="radio2" />
@@ -758,32 +761,28 @@
           </div>
         </div>
       </div>
-      <div class="my-gallary-img-wapper">
-        <div class="card">
-          <div class="card_part card_part-one"></div>
-
-          <!-- Photo 2 -->
-          <div class="card_part card_part-two"></div>
-
-          <!-- Photo 3 -->
-          <div class="card_part card_part-three"></div>
-
-          <!-- Photo 4 -->
-          <div class="card_part card_part-four"></div>
-          <!-- Photo 5 -->
-          <div class="card_part card_part-five"></div>
-          <!-- Photo 6 -->
-          <div class="card_part card_part-sixe"></div>
-          <!-- Photo 7 -->
-          <div class="card_part card_part-seven"></div>
-          <div class="card_part card_part-120"></div>
-          <div class="card_part card_part-121"></div>
-          <div class="card_part card_part-122"></div>
-          <div class="card_part card_part-123"></div>
-          <div class="card_part card_part-124"></div>
-          <div class="card_part card_part-125"></div>
-          <div class="card_part card_part-126"></div>
-          <div class="card_part card_part-127"></div>
+      <div class="">
+        <!-- <div class="card"> -->
+          <div class="slider-container">
+            <div class="slider">
+                <div><img src="assets/IQ1.jpg" alt="Image 1"></div>
+                <div><img src="assets/IQ1.jpg" alt="Image 2"></div>
+                <div><img src="assets/students.jpg" alt="Image 3"></div>
+                <div><img src="assets/GIQ Goal.jpg" alt="Image 4"></div>
+                <div><img src="assets/kid1.jpg" alt="Image 4"></div>
+                <div><img src="assets/KID3.jpg" alt="Image 4"></div>
+                <div><img src="assets/computer-training-500x500.png" alt="Image 4"></div>
+                <div><img src="assets/120.jpg" alt="Image 4"></div>
+                <div><img src="assets/121.jpg" alt="Image 4"></div>
+                <div><img src="assets/122.jpg" alt="Image 4"></div>
+                <div><img src="assets/123.jpg" alt="Image 4"></div>
+                <div><img src="assets/124.jpg" alt="Image 4"></div>
+                <div><img src="assets/125.jpg" alt="Image 4"></div>
+                <div><img src="assets/126.jpg" alt="Image 4"></div>
+                <div><img src="assets/127.jpg" alt="Image 4"></div>
+                <div><img src="assets/128.jpg" alt="Image 4"></div>
+            </div>
+        </div>
         </div>
       </div>
     </div>
@@ -864,10 +863,27 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Slider JS (from CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script type="text/javascript">
       (function () {
         emailjs.init("user_7NhCA27YggBO7oNAbsd4m");
       })();
+
+      $(document).ready(function(){
+            $('.slider').slick({
+                infinite: true,         // Infinite loop of slides
+                slidesToShow: 1,        // Show one slide at a time
+                slidesToScroll: 1,      // Scroll one slide at a time
+                arrows: false,           // Show arrows
+                autoplay: true,         // Auto slide
+                autoplaySpeed: 3000,    // Auto slide speed (3 seconds)
+                dots: false,             // Show dots navigation
+                fade: false,            // Disable fade transition (optional)
+            });
+        });
     </script>
     <script src="./js/app.js"></script>
   </body>

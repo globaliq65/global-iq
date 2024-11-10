@@ -271,7 +271,7 @@ body {
 
 .my-gallary-img-wapper {
   width: 60%;
-  height: 100%;
+  height: 78vh;
   margin: 0 auto;
   background: black;
   box-shadow: 1px 2px 20px -3px rgba(49, 49, 49, 0.8196078431);
@@ -392,7 +392,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 20;
+  z-index: 10;
   display: flex;
   align-items: center;
   width: 100%;
@@ -406,80 +406,80 @@ body {
 }
 
 .card_part.card_part-two {
-  z-index: 20;
+  z-index: 9;
   background-image: url("../assets/IQ1.jpg");
   animation-delay: 7s;
 }
 
 .card_part.card_part-three {
-  z-index: 19;
+  z-index: 8;
   background-image: url("../assets/students.jpg");
   animation-delay: 14s;
 }
 
 .card_part.card_part-four {
-  z-index: 18;
+  z-index: 7;
   background-image: url("../assets/GIQ Goal.jpg");
   animation-delay: 21s;
 }
 
 .card_part.card_part-five {
-  z-index: 17;
+  z-index: 6;
   background-image: url("../assets/kid1.jpg");
   animation-delay: 28s;
 }
 
 .card_part.card_part-sixe {
-  z-index: 16;
+  z-index: 5;
   background-image: url("../assets/KID3.jpg");
   animation-delay: 35s;
 }
 
 .card_part.card_part-seven {
-  z-index: 15;
+  z-index: 4;
   background-image: url("../assets/computer-training-500x500.png");
   animation-delay: 42s;
 }
 
 .card_part.card_part-120 {
-  z-index: 14;
+  z-index: 4;
   background-image: url("../assets/120.jpg");
-  animation-delay: 49s;
+  animation-delay: 42s;
 }
 .card_part.card_part-121 {
-  z-index: 13;
+  z-index: 4;
   background-image: url("../assets/121.jpg");
-  animation-delay: 56s;
+  animation-delay: 42s;
 }
 .card_part.card_part-122 {
   z-index: 4;
   background-image: url("../assets/122.jpg");
-  animation-delay: 63s;
+  animation-delay: 42s;
 }
 .card_part.card_part-123 {
   z-index: 4;
   background-image: url("../assets/123.jpg");
-  animation-delay: 70s;
+  animation-delay: 42s;
 }
 .card_part.card_part-124 {
   z-index: 4;
   background-image: url("../assets/124.jpg");
-  animation-delay: 77s;
+  animation-delay: 42s;
 }
 .card_part.card_part-125 {
   z-index: 4;
   background-image: url("../assets/125.jpg");
-  animation-delay: 84s;
+  animation-delay: 42s;
 }
 .card_part.card_part-126 {
   z-index: 4;
   background-image: url("../assets/126.jpg");
-  animation-delay: 91s;
+  animation-delay: 42s;
 }
 .card_part.card_part-127 {
   z-index: 4;
   background-image: url("../assets/127.jpg");
-  animation-delay: 98s;
+  animation-delay: 42s;
 }
 
 @keyframes opaqTransition {
@@ -496,7 +496,7 @@ body {
     transform: translateX(-100%);
   }
 }
-.slider {
+.slider-main {
   position: absolute;
   top: 0;
   height: 100%;
@@ -863,3 +863,33 @@ body {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+.slick-slide {
+  padding: 10px;
+  background: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slick-prev, .slick-next {
+  font-size: 30px;
+  color: #333;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.slick-slide img {
+  width: 100%;
+  border-radius: 10px;
+} 
